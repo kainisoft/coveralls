@@ -1,4 +1,4 @@
-# save as ./github/workflows/git-build.yml
+# save as ./.github/workflows/git-build.yml
 # make sure that 'test-coverage' generates the coverage reports (lcov)
 
 name: git-build
@@ -19,6 +19,6 @@ jobs:
       - run: npm ci
       - run: npm run test:coverage
       - name: Coveralls
-        uses: coverallsapp/github-action@master
+        uses: coverallsapp/.github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
