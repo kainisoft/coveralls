@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+[![Coverage Status](https://coveralls.io/repos/github/kainisoft/coveralls/badge.svg?branch=)](https://coveralls.io/github/kainisoft/coveralls?branch=)
+
 ## Installation
 
 ```bash
