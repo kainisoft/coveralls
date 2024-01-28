@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '16.16.0'
       - run: npm ci
-      - run: npm run test:coverage
+      - run: npm run test:coveralls
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
